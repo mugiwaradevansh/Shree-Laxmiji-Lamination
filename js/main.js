@@ -90,9 +90,11 @@ function handleRoute() {
                 const productSelect = document.getElementById('quote-product-select') || document.querySelector('[name="product"]');
                 if (productSelect) {
                     const productMap = {
-                        'plastic-printed-film': 'Plastic Printed Film',
+                        'plastic-printed-film': 'Bopp Pearl Printed Film Roll',
+                        'bopp-pearl-printed-film-roll': 'Bopp Pearl Printed Film Roll',
                         'printed-plastic-wrapping-ribbon': 'Printed Plastic Wrapping Ribbon',
-                        'printed-packing-patta': 'Printed Packing Patta',
+                        'printed-packing-patta': 'Bopp Pearl Printed Patta',
+                        'bopp-pearl-printed-patta': 'Bopp Pearl Printed Patta',
                         'packaging-material-flexible-packing': 'Flexible Packaging Material',
                         'flexible-packaging-material': 'Flexible Packaging Material'
                     };
